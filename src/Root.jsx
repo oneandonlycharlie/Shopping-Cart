@@ -11,6 +11,9 @@ function Root() {
     const fetchData = async ()=> {
       let response = await fetch("https://fakestoreapi.com/products");
       let data = await response.json();
+      data.map(item => {
+        {item['selected'] = false, item['quantity']=0}
+      })
       setInventory(data);
     };
     fetchData();
