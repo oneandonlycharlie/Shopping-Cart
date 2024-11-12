@@ -1,0 +1,31 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Error page > matches snapshot 1`] = `
+<div>
+  <div
+    id="error-page"
+  >
+    <h1>
+      Oops
+    </h1>
+    <p>
+      An expected error has occurred
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Error page > redners headline 1`] = `
+<div>
+  <div
+    id="error-page"
+  >
+    <h1>
+      Oops
+    </h1>
+    <p>
+      An expected error has occurred
+    </p>
+  </div>
+</div>
+`;
