@@ -24,6 +24,7 @@ function ShoppingCart(){
             })}
         </div>
         <p>{subTotal}</p>
+        <button>Delete</button>
         <Link to="/shoplist">Back to shopping</Link>
         <button>Check out</button>
         </>

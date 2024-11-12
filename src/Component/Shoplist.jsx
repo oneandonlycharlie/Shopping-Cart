@@ -1,6 +1,5 @@
-import { useState } from "react"
-import { useParams, Link, useOutletContext } from "react-router-dom"
-import { Item } from "./Item"
+
+import { Link, useOutletContext } from "react-router-dom"
 
 function Shoplist(){
 
